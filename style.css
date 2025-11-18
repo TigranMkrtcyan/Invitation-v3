@@ -429,6 +429,7 @@ body {
 
 
 .calendar {
+    margin-top: 80px;
     margin: auto;
     max-width: 380px;
     width: 100%;
@@ -443,13 +444,13 @@ body {
 .ctext1 {
     line-height: 50%;
     font-size: 68px;
-    font-family: "Larrisha Script";
+
 }
 
 .lng-ctext2 {
     margin: auto;
     font-size: 36px;
-    font-family: "Bruney";
+    font-family: "Kotayk";
     font-weight: 300;
     margin-bottom: 30px;
 }
@@ -595,6 +596,7 @@ a {
     position: relative;
     text-align: center;
     margin-bottom: 100px;
+    font-family: "Kotayk-Regular";
 }
 
 .line {
@@ -752,6 +754,10 @@ a {
     font-size: 36px;
 }
 
+
+.lng-timerhead {
+        font-family: "Kotayk";
+}
 /*********************************************************************/
 
 .ayan {
@@ -803,6 +809,10 @@ h6 {
 
 /*********************************************************************/
 @media screen and (max-width : 480px) {
+    .invitation {
+        margin: none;
+    }
+
     .convert_left {
         position: absolute;
         left: 0%;
@@ -827,20 +837,22 @@ h6 {
     }
 
     .header {
-        width: 445px;
+        width: 100%;
 
     }
 
     .later {
         position: relative;
         margin: auto;
-        width: 106%;
+        width: 100%;
         /* left: 2%; */
         /* margin-top: 100px; */
     }
 
     .headertext1 {
         left: -90%;
+        transform: translate(-45%, -45%);
+
         animation: text1_2 2s linear forwards 3s;
     }
 
@@ -850,12 +862,13 @@ h6 {
     }
 
     .font {
-        font-size: 56px;
+        font-size: 66px;
     }
 
     .headertext3 {
         left: -400%;
         animation: text3_2 2s linear forwards 3s;
+        transform: translate(-10%, -40%);
     }
 
     .lng-latetext2 {
@@ -927,6 +940,7 @@ h6 {
         width: 35px;
         height: 35px;
         font-size: 14px;
+        margin-left: 5px;
     }
 
     .ctext1 {
@@ -939,9 +953,9 @@ h6 {
     }
 
     .hearth {
-        width: 40px !important;
-        /* top: -10%; */
-        left: -5%;
+        width: 50px !important;
+        top: -25%;
+        left: -16%;
     }
 
     .placetexts {
@@ -1043,7 +1057,7 @@ h6 {
     }
 
     .left_hand_img {
-        width: 200px;
+        width: 180px;
         position: absolute;
         left: 0%;
         top: 30%;
@@ -1057,8 +1071,29 @@ h6 {
         }
 
         100% {
-            left: 5%;
+            left: 2%;
             transform: scale(1.1);
+        }
+    }
+
+    .right_hand_img {
+        width: 180px;
+        position: absolute;
+        top: 34%;
+        right: 0%;
+        animation: righthand1 1s forwards 4s;
+    }
+
+
+    @keyframes righthand1 {
+        0% {
+            transform: scale(1);
+            right: 0%;
+        }
+
+        100% {
+            right: 2%;
+            transform: scale(1.25);
         }
     }
 }
