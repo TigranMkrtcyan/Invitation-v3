@@ -63,7 +63,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-image: url(/images/iPhone\ 13\ &\ 14\ -\ 246.png);
+    background-image: url(images/iPhone\ 13\ &\ 14\ -\ 246.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -74,7 +74,6 @@ body {
     height: 100vh;
     position: fixed;
     z-index: 999;
-    background-color: white;
     animation: convert 1s linear forwards 2s;
 }
 
@@ -91,14 +90,12 @@ body {
     z-index: 999;
     opacity: 1;
     animation: left 2s linear forwards 1s;
-    background-color: white;
 }
 
 .convert_right {
     position: absolute;
     right: 32%;
     z-index: 998;
-    background-color: white;
     animation: right 2s linear forwards 1s;
 }
 
@@ -806,6 +803,21 @@ h6 {
 
 /*********************************************************************/
 @media screen and (max-width : 480px) {
+    .convert_left {
+        position: absolute;
+        left: 0%;
+        z-index: 999;
+        opacity: 1;
+        animation: left1 2s linear forwards 1s;
+    }
+
+    .convert_right {
+        position: absolute;
+        right: 0%;
+        z-index: 998;
+        animation: right1 2s linear forwards 1s;
+    }
+
     .converttop {
         width: 130%;
     }
@@ -995,6 +1007,40 @@ h6 {
         }
     }
 
+
+    @keyframes left1 {
+        0% {
+            left: 0%;
+            opacity: 1;
+        }
+
+        75% {
+            left: -75%;
+            opacity: 1;
+        }
+
+        100% {
+            left: -150%;
+            opacity: 0;
+        }
+    }
+
+    @keyframes right1 {
+        0% {
+            right: 0%;
+            opacity: 1;
+        }
+
+        75% {
+            right: -75%;
+            opacity: 1;
+        }
+
+        100% {
+            right: -150%;
+            opacity: 0;
+        }
+    }
 
     .left_hand_img {
         width: 200px;
