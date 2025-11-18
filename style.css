@@ -10,37 +10,37 @@
 
 @font-face {
     font-family: "Kotayk";
-    src: url("/Shrifts/Kotayk.ttf") format("truetype");
+    src: url("Shrifts/Kotayk.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Larrisha Script";
-    src: url("/Shrifts/Larrisha Script.ttf") format("truetype");
+    src: url("Shrifts/Larrisha Script.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Vrdznagir";
-    src: url("/Shrifts/Vrdznagir.otf") format("truetype");
+    src: url("Shrifts/Vrdznagir.otf") format("truetype");
 }
 
 @font-face {
     font-family: "Kotayk-Regular";
-    src: url("/Shrifts/Kotayk-Regular.ttf") format("truetype");
+    src: url("Shrifts/Kotayk-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Bruney";
-    src: url("/Shrifts/ss-bruney.otf") format("truetype");
+    src: url("Shrifts/ss-bruney.otf") format("truetype");
 }
 
 @font-face {
     font-family: "Adobe Clean Serif";
-    src: url("/Shrifts/AdobeClean-Light.ttf") format("truetype");
+    src: url("Shrifts/AdobeClean-Light.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Noto sans Armenian";
-    src: url("/Shrifts/NotoSansArmenian-Bold.ttf") format("truetype");
+    src: url("Shrifts/NotoSansArmenian-Bold.ttf") format("truetype");
 }
 
 * {
