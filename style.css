@@ -685,6 +685,7 @@ a {
 .line1 {
     position: relative;
     left: 7%;
+    transform: translateY(-60px);
 }
 
 /*********************************************************************/
