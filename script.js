@@ -69,7 +69,7 @@ function renderCalendarDays() {
         if (block.textContent.trim() === "25") {
             const heart = document.createElement("div");
             heart.className = "hearth";
-            heart.style.backgroundImage = 'url("/images/heart.png")';
+            heart.style.backgroundImage = 'url("images/heart.png")';
             heart.style.width = '60px';
             heart.style.height = '60px';
             heart.style.backgroundSize = 'contain';
