@@ -815,7 +815,7 @@ h6 {
 
     .convert_left {
         position: absolute;
-        left: 0%;
+        left: -20%;
         z-index: 999;
         opacity: 1;
         animation: left1 2s linear forwards 1s;
@@ -823,7 +823,7 @@ h6 {
 
     .convert_right {
         position: absolute;
-        right: 0%;
+        right: -20%;
         z-index: 998;
         animation: right1 2s linear forwards 1s;
     }
@@ -851,7 +851,7 @@ h6 {
 
     .headertext1 {
         left: -90%;
-        transform: translate(-45%, -45%);
+        transform: translate(-45%, -35%);
 
         animation: text1_2 2s linear forwards 3s;
     }
